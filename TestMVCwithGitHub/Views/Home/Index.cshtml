@@ -4,15 +4,19 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Demo Application </h2>
 
 @using (Html.BeginForm()) {
     @Html.AntiForgeryToken()
     @Html.ValidationSummary(true)
 
-    <fieldset>
-        <legend>Employee</legend>
+    <table>
 
+    </table>
+    <fieldset>
+        <legend>Add Employee</legend>  
+                     
+        <br />
         <div class="editor-label">
             @Html.LabelFor(model => model.EmpFirstName)
         </div>
@@ -20,7 +24,7 @@
             @Html.EditorFor(model => model.EmpFirstName)
             @Html.ValidationMessageFor(model => model.EmpFirstName, "", new { style = "color:red" })
         </div>
-
+        <br /><br />
         <div class="editor-label">
             @Html.LabelFor(model => model.EmpLastName)
         </div>
@@ -30,7 +34,7 @@
         </div>
 
         <p>
-            <input id="btnsubmit" type="submit" value="Create" />
+            <input id="btnsubmit" type="submit" value="Submit" />
         </p>
         <br />
         test demo -6
