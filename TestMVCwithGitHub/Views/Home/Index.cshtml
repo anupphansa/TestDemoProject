@@ -1,0 +1,43 @@
+﻿@model TestMVCwithGitHub.Models.Employee
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Employee</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.EmpFirstName)
+        </div>
+        <div class="editor-field" >
+            @Html.EditorFor(model => model.EmpFirstName)
+            @Html.ValidationMessageFor(model => model.EmpFirstName, "", new { style = "color:red" })
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.EmpLastName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.EmpLastName)
+            @Html.ValidationMessageFor(model => model.EmpLastName, "", new { style = "color:red" })
+        </div>
+
+        <p>
+            <input id="btnsubmit" type="submit" value="Create" />
+        </p>
+        <br />
+        Test chnage 2
+    </fieldset> 
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
