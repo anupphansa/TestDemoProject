@@ -24,7 +24,7 @@ namespace TestMVCwithGitHub.Controllers
             if (ModelState.IsValid == true)
             {
 
-                return RedirectToAction("success", "Home");
+                return RedirectToAction("success", "Home"); 
             }
 
             return View(emp);
