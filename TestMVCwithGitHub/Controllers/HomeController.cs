@@ -16,7 +16,7 @@ namespace TestMVCwithGitHub.Controllers
         public ActionResult Index()
         {
             //string strTempDate = "Ju 05 2019";
-            DateTime temp = Convert.ToDateTime(strTempDate);
+           // DateTime temp = Convert.ToDateTime(strTempDate);
 
             return View();
         }
