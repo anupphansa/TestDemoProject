@@ -17,8 +17,12 @@ namespace TestMVCwithGitHub.Controllers
         {
             //string strTempDate = "Ju 05 2019";
            // DateTime temp = Convert.ToDateTime(strTempDate);
+            Employee emp=new Employee();
 
-            return View();
+            emp.EmpFirstName = "First Name 11";
+            emp.EmpLastName = "Last Name";
+
+            return View(emp);
         }
 
         [HttpPost]
