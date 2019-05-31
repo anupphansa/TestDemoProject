@@ -17,6 +17,5 @@ D:\WORK\POLARIS\GMSv1.0\SOURCE CODE\VSTS\zTest\TestMVCwithGitHub\TestMVCwithGitH
 D:\WORK\POLARIS\GMSv1.0\SOURCE CODE\VSTS\zTest\TestMVCwithGitHub\TestMVCwithGitHub\bin\System.Web.WebPages.xml
 D:\WORK\POLARIS\GMSv1.0\SOURCE CODE\VSTS\zTest\TestMVCwithGitHub\TestMVCwithGitHub\bin\System.Web.WebPages.Deployment.xml
 D:\WORK\POLARIS\GMSv1.0\SOURCE CODE\VSTS\zTest\TestMVCwithGitHub\TestMVCwithGitHub\bin\System.Web.WebPages.Razor.xml
-D:\WORK\POLARIS\GMSv1.0\SOURCE CODE\VSTS\zTest\TestMVCwithGitHub\TestMVCwithGitHub\obj\Debug\TestMVCwithGitHub.csprojResolveAssemblyReference.cache
 D:\WORK\POLARIS\GMSv1.0\SOURCE CODE\VSTS\zTest\TestMVCwithGitHub\TestMVCwithGitHub\obj\Debug\TestMVCwithGitHub.dll
 D:\WORK\POLARIS\GMSv1.0\SOURCE CODE\VSTS\zTest\TestMVCwithGitHub\TestMVCwithGitHub\obj\Debug\TestMVCwithGitHub.pdb
